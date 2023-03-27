@@ -7,6 +7,9 @@
 .giggly{
     max-width: none;
 }
+.mybtn{
+    
+}
 /* img {
     max-width: none;
 } */
@@ -26,3 +29,11 @@
       }
     
 }
+
+@media screen and (min-width: 600px) 
+{ .auth-form-container 
+    { padding: 1rem; 
+      border-radius: 10px;
+       width: 100% !important; 
+       height: auto; 
+        } }

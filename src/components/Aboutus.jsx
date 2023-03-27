@@ -10,7 +10,7 @@ import Enrolled from "../assets/EnrolledStudents.png"
 
 function Aboutus() {
   return (
-    <div className='bg-[#F8F9FC]  '>
+    <div className='bg-[#F8F9FC]  auth-form-container '>
         <div className='p-16 flex gap-16 flex-col space-between lg:flex-row space-between items-left w-screen z-10'>
        <div className=''>
 
@@ -23,7 +23,7 @@ function Aboutus() {
         <button className='px-8 py-3 mt-2 mb-4 text-[#fff] bg-[#004DB3]'>
           view courses
         </button>
-        <div className='order-2 grid grid-cols-2 gap-4'>
+        <div className=' grid grid-cols-2 gap-4'>
         
         <img src={Audio} alt='' />
         <img src={Live} alt='' />
@@ -33,15 +33,15 @@ function Aboutus() {
         </div>
       </div>
        
-        <div className=' w-[50vw] md:flex flex-col container h-[100%] mx-auto justify-between z-10'>
+        <div className=' w-[50vw] md:flex flex-col container h-[100%] mx-auto justify-between '>
           <div className='relative flex-col ml-auto  '>
         <div className="image absolute top-[70px] left-[-130px]">
   
         <img className='giggly' src={Enrolled} alt=''  />
   </div>
-<div className="image h-[81%] w-[40%]">
+     <div className="image h-[81%] w-[40%] ">
 
-        <img  className='h-[100%] giggly' src={Techgirl} alt='' />
+        <img  className='h-[100%] giggly md:h-30 md:w-30' src={Techgirl} alt='' />
 </div>
         <div className="image absolute h-[50%] left-[-25%] top-[45%]">
         <img className='item-center h-[100%] giggly' src={Computer} alt='' />
