@@ -1,5 +1,6 @@
 import React from 'react'
 import Facebook from "../assets/Facebook.png"
+import { Link, } from 'react-scroll'
 
 
 function Footer() {
@@ -11,13 +12,13 @@ function Footer() {
             </div>
 
             <div className=''>
-            <ul>
-            <li className='text-2xl font-extrabold'>Useful links</li>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Our Course</li>
-                <li>Testimonial</li>
-                <li>Our Community</li>
+            <ul className='cursor-pointer'>
+            <li className='text-2xl font-extrabold '>Useful links</li>
+            <li><Link  to="home" smooth={true} duration={500}>Home</Link></li>
+           <li><Link  to="aboutus" smooth={true} offset={-200} duration={500}>About Us</Link></li>
+           <li><Link  to="courses" smooth={true} offset={-50} duration={500}>Our Courses</Link></li>
+           <li><Link  to="testimonial" smooth={true} offset={-100} duration={500}>Testimonials</Link></li>
+           <li><Link  to="community" smooth={true} offset={-50} duration={500}>Community</Link></li>
             </ul>
          
             </div>

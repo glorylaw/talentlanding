@@ -8,11 +8,11 @@ import Coursesix from "../assets/Coursesix.svg";
 
 function Courses() {
   return (
-    <div className='bg-[#F8F9FC]  '>
+    <div name='courses' className='bg-[#F8F9FC]  '>
         <div className='px-4 '>
             <div className=''>
-            <h1 className='text-4xl font-bold text-center'>Browse Our Popular Courses</h1>
-            <p className='pt-5 pl-8 text-center text-xs' >High Definition Video Is Video Of High Resolution And Quality Than Standard Definition.While<br /> There's
+            <h1 className='text-4xl font-bold text-center '>Browse Our Popular Courses</h1>
+            <p className='pt-5 pl-8 text-center text-xs text[#A1A1A1]' >High Definition Video Is Video Of High Resolution And Quality Than Standard Definition.While<br /> There's
             Is No Standard Meaning For High Definition.Generally Any Standard Video Image</p>
             </div>
             <div>

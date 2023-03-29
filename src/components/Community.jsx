@@ -4,7 +4,7 @@ import Grouppics from "../assets/Grouppics.svg"
 
 function Community() {
   return (
-    <div className='bg-[#004DB3]'>
+    <div name='community' className='bg-[#004DB3]'>
     <div className='text-[#ffffff] px-32'>
         <p className=' text-center pt-4'> JOIN COMMUNITY</p>
         <h1 className='text-4xl  font-bold text-center '>Are You Ready To Connect With The Future <br/> Of The Tech World</h1>

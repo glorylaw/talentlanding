@@ -10,7 +10,7 @@ import Enrolled from "../assets/EnrolledStudents.png"
 
 function Aboutus() {
   return (
-    <div className='bg-[#F8F9FC]  auth-form-container '>
+    <div name='aboutus' className='bg-[#F8F9FC]  auth-form-container '>
         <div className='p-16 flex gap-16 flex-col space-between lg:flex-row space-between items-left w-screen z-10'>
        <div className=''>
 
