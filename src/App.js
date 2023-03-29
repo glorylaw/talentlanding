@@ -5,6 +5,8 @@ import AboutUsTwo from "./components/AboutUsTwo";
 import Courses from "./components/Courses";
 import Testimonial from "./components/Testimonial";
 import Community from "./components/Community";
+import Frequent from "./components/Frequent";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
   <Courses/>
   <Testimonial/>
   < Community/>
+  < Frequent/>
+  < Footer/>
    </>
   );
 }

@@ -39,7 +39,7 @@ function Aboutus() {
   
         <img className='giggly' src={Enrolled} alt=''  />
   </div>
-     <div className="image h-[81%] w-[40%] ">
+     <div className="image h-[81%] w-[40%] md:overflow-h[60vh]">
 
         <img  className='h-[100%] giggly md:h-30 md:w-30' src={Techgirl} alt='' />
 </div>

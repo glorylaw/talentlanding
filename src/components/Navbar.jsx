@@ -24,6 +24,7 @@ function Navbar() {
     </div>
     <div className='md:hidden' onClick={handleClick}>
       {!nav ? <MenuIcon className='w-5 pt-5 text-white'/>:<XIcon className='w-5 pt-5 text-white'/>}
+     
     </div>
       </div>
       <ul className={!nav ? 'hidden':'absolute bg-[#004DB3] w-full px-8 text-white'}>

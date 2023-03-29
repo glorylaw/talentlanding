@@ -11,8 +11,8 @@ function Courses() {
     <div className='bg-[#F8F9FC]  '>
         <div className='px-4 '>
             <div className=''>
-            <h1 className='text-5xl font-bold '>Browse Our Popular Courses</h1>
-            <p className='pt-5 pl-8 item-center text-xs' >High Definition Video Is Video Of High Resolution And Quality Than Standard Definition.While<br /> There's
+            <h1 className='text-4xl font-bold text-center'>Browse Our Popular Courses</h1>
+            <p className='pt-5 pl-8 text-center text-xs' >High Definition Video Is Video Of High Resolution And Quality Than Standard Definition.While<br /> There's
             Is No Standard Meaning For High Definition.Generally Any Standard Video Image</p>
             </div>
             <div>
@@ -31,8 +31,8 @@ function Courses() {
             <img src={Coursesix} alt=""/>
             
             </div>
-           <div className='px-44'>
-           <button className='px-8 py-3 mt-2 mb-4 text-[#ffffff] bg-[#004DB3] mybtn item-center justify-center'>Explore All Courses</button>
+           <div className=' text-center'>
+           <button className='px-8 py-3 mt-2 mb-4 text-[#ffffff] bg-[#004DB3] mybtn text-center justify-center'>Explore All Courses</button>
            </div>
             </div>
             

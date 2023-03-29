@@ -7,14 +7,17 @@
 .giggly{
     max-width: none;
 }
-.mybtn{
-    
+.para{
+    color: black;
+    font-size: x-small;
 }
+
 /* img {
     max-width: none;
 } */
 
 @layer base{
+    
     
     li{
         @apply p-4 
