@@ -6,7 +6,7 @@ function Testimonial() {
   return (
     <div name='testimonial' className='bg-[#F8F9FC]  '>
         <div className=' pt-12'>
-            <h1 className='text-5xl font-bold text-center' >What Our Clients Are Saying</h1>
+            <h1 className='text-5xl font-bold text-center' >What Our Clients Are Saying </h1>
             <p className='text-xs text-center text-[#A1A1A1] pt-10' >
             High Definition Video Is Video Of High Resolution And Quality Than Standard Definition.While<br /> There's
             Is No Standard Meaning For High Definition.Generally Any Standard Video Image
